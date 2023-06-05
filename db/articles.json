@@ -1,0 +1,36 @@
+[{
+    "title": "Como hacer una API REST en node.js",
+    "extract": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, tenetur.",
+    "introduction": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, tenetur.",
+    "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, tenetur.",
+    "author": "admin",
+    "date": "01/06/23"
+},{
+    "title": "Tutorial basico de webcomponents",
+    "extract": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, tenetur.",
+    "introduction": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, tenetur.",
+    "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, tenetur.",
+    "author": "admin",
+    "date": "29/05/23"
+},{
+    "title": "Formulario de contacto con HTML y CSS",
+    "extract": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, tenetur.",
+    "introduction": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, tenetur.",
+    "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, tenetur.",
+    "author": "admin",
+    "date": "25/05/23"
+},{
+    "title": "Guia para hacer un tema de Wordpress",
+    "extract": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, tenetur.",
+    "introduction": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, tenetur.",
+    "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, tenetur.",
+    "author": "admin",
+    "date": "21/05/23"
+},{
+    "title": "Wordpress: primeros pasos",
+    "extract": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, tenetur.",
+    "introduction": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, tenetur.",
+    "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique, tenetur.",
+    "author": "admin",
+    "date": "21/05/23"
+}]

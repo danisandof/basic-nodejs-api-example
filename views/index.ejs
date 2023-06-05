@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="uikit.min.css" />
+  <link rel="stylesheet" href="style.css">
+  <title>Basic API Example</title>
+</head>
+<body>
+  <div class="container">
+    <div id="left-panel">
+      <ul class="uk-list uk-text-center" style="margin-top: 10px;">
+        <li><a href="#" uk-icon="icon: menu"></a></li>
+        <li><a href="#" uk-icon="icon: home"></a></li>
+        <li><a href="#" uk-icon="icon: user"></a></li>
+        <li><a href="#" uk-icon="icon: bell"></a></li>
+        <li><a href="#" uk-icon="icon: settings"></a></li>
+      </ul>
+    </div>
+    <div id="main">
+      <section id="search-bar">
+        <div class="uk-margin">
+          <div class="uk-inline">
+              <a class="uk-form-icon uk-form-icon-flip" href="#" uk-icon="icon: search"></a>
+              <input class="uk-input uk-form-width-large" type="text" placeholder="Buscar publicaciones...">
+          </div>
+      </div>
+      </section>
+      <section id="articles">
+        <h4><b>Principales articulos</b></h4>
+        <ul id="list-articles" class="uk-list uk-list-divider"></ul>
+      </section>
+    </div>
+    <div id="right-panel">
+        <article class="uk-article">
+          <div class="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" data-src="imagen1.jpg" uk-img>
+            <h1 class="uk-article-title">Como hacer una API REST en node.js</h1>
+          </div>
+          <div id="article-info" style="padding: 15px 25px;">
+            <p class="uk-article-meta">Written by <a href="#">admin</a> on 01 June 2023. Posted in <a href="#">Blog</a></p>
+            <i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</i>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div class="uk-grid-small uk-child-width-auto" uk-grid>
+                <div>
+                    <a class="uk-button uk-button-text" href="#">Read more</a>
+                </div>
+                <div>
+                    <a class="uk-button uk-button-text" href="#">5 Comments</a>
+                </div>
+            </div>
+          </div>
+      </article>
+    </div>
+  </div>
+  <script type="text/javascript" src="articles-query.js"></script>
+  <script type="text/javascript" src="uikit.min.js"></script>
+  <script type="text/javascript" src="uikit-icons.min.js"></script>
+</body>
+</html>
